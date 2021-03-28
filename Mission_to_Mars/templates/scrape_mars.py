@@ -74,11 +74,11 @@ def hemispheres():
     browser.visit(url)
 
     # Create a list to hold the images and titles.
-hemisphere_image_urls = []
+     hemisphere_image_urls = []
 
     # Get a list of all of the hemispheres
     links = browser.find_by_css('a.product-item img')
-    print(links)
+    # print(links)
 
     # Next, loop through those links, click the link, find the sample anchor, return the href
     for i in range(len(links)):
